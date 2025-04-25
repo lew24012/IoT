@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple IoT Projects">
+    <meta name="author" content="Teagan Lewis">
+    <link rel="stylesheet" href="styles.css">
+    <title>IoT Projects</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Pentesting</a>
+            <img src="images/IoT_logo.png" alt="IoT Logo">
+            <a href="">Coming Soon!</a>
+            <a href="">Coming Soon!</a>
+        </nav>
+        <nav>
+            <a href="simpleAPHub/">ESP8266 AP Hub</a>
+            <a href="simplePingClient/">ESP8266 Pinger</a>
+            <a href="webUDPClient/">ESP8266 Web UDP Client</a>
+        </nav>
+    </header>
+    <h1>
+        Simple ESP8266 Network
+    </h1>
+    <p>
+        This is a fun little project I made using the ESP8266 microcontroller. 
+        The "Pinger" allows you to test ping functionality across the mini network hosted by the AP Hub. 
+        Each client hosts a webserver that allows the user to enter an IP address to ping. You can also use 
+        the serial monitor to verify ping connectivity.
+    </p>
+    <p>
+        The Web UDP Client allows users to send basic text messages across the network using UDP.
+        Each client hosts a webserver that allows users to select an IP address to send the message to.
+        The client's connection to the AP Hub is configured in the code itself, so if you make any adjustments 
+        you'll need to make sure they match on both the Hub and the UDP Client.
+    </p>
+    <footer>
+        <p>&copy; 2025 Teagan Lewis</p>
+        <p>All rights reserved.</p>
+        <p>Contact: lewis.teagan.pro@gmail.com</p>
+    </footer>
+</body>
+</html>

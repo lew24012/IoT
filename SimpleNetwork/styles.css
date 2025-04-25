@@ -1,5 +1,9 @@
 /* colors: #30c5ff, #2a2d34, #5C946E, #80C2AF, #A0DDE6 */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     display: flex;
     justify-content: center;
